@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/s1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/playlayout"
+    android:scrollbars="vertical">
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+    <TextView android:layout_width="fill_parent" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#FFFFFF" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="This is a two-player game in which there are three rows of sticks: 5 in first row, 6 in second and 7 in third. In one chance one can remove any number of sticks from a single row only and it is compulsory to remove at least one stick. Turns alternate. When all the sticks are removed, the person who took the last chance and removed some stick(s) would be the winner."></TextView>
+    <Button android:text="Back" android:id="@+id/button" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>   
+</LinearLayout>
+</ScrollView>
